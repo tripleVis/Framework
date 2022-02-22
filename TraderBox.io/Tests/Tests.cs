@@ -33,18 +33,6 @@ namespace TraderBox.io.Tests
             Assert.That(fullscreenMod, Is.Not.Null);
         }
 
-        [TestCase("Currency")]
-        public void AddStockExchangeTest(string name)
-        {
-            MainPage creationStockExchange = mainPage.CloseWindowWithMessageAboutSettingUpTwoFactorAuthentication()
-                .OpenDropboxWithAllStockExchanges()
-                .AddExchange()
-                .InputNameOfNewStockExcgange(name)
-                .ClickConfirmButton()
-                .OpenDropboxWithAllStockExchanges();
-
-            Assert.Contains(creationStockExchange.GetCreatedStockExchange(), creationStockExchange.GetAllStockExchanges());
-        }
     }
 
     [TestFixture]
@@ -64,18 +52,6 @@ namespace TraderBox.io.Tests
             });
         }
 
-        [TestCase("ReferralLinkForGods")]
-        public void CreateReferralLinkTest(string name)
-        {
-            ProfilePage referralProgram = mainPage.CloseWindowWithMessageAboutSettingUpTwoFactorAuthentication()
-            .GoToProfilePage()
-            .GoToReferralProgram()
-            .ChooseLinksTabItem()
-            .InputNameOfReferralLink(name)
-            .CreateReferralLink();
-
-            Assert.Contains(referralProgram.GetCreatedReferralLink(), referralProgram.GetAllReferralLinks());
-        }
 
         [Test]
         public void ChangeLanguageOnEnglishTest()
