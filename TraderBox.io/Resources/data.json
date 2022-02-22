@@ -1,0 +1,11 @@
+{
+  "TestsSettings": {
+    "User": {
+      "email": "forepamtesting@mail.ru",
+      "password": "passwordis12345"
+    },
+    "Browser": {
+      "browserName": "chrome"
+    }
+  }
+}

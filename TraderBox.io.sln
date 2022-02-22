@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraderBox.io", "TraderBox.io\TraderBox.io.csproj", "{C4BF4590-EFBB-4407-A70E-3149F2860011}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4BF4590-EFBB-4407-A70E-3149F2860011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4BF4590-EFBB-4407-A70E-3149F2860011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4BF4590-EFBB-4407-A70E-3149F2860011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4BF4590-EFBB-4407-A70E-3149F2860011}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {638EC194-CEC5-4A93-AE52-17B2F2207C37}
+	EndGlobalSection
+EndGlobal
